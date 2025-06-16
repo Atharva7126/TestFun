@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2196F3;stop-opacity:0.9" />
+    </linearGradient>
+    <pattern id="pattern1" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="12" fill="rgba(255, 255, 255, 0.1)" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#grad1)" />
+  <rect width="1600" height="900" fill="url(#pattern1)" />
+  
+  <!-- Shopping-related elements -->
+  <g fill="rgba(255, 255, 255, 0.2)" transform="translate(200, 200)">
+    <!-- Shopping bag icon -->
+    <path d="M100,20 L150,20 L170,100 L80,100 Z M90,0 L90,30 M160,0 L160,30" stroke="rgba(255, 255, 255, 0.4)" stroke-width="5" fill="none"/>
+  </g>
+  
+  <g fill="rgba(255, 255, 255, 0.2)" transform="translate(900, 300)">
+    <!-- Cart icon -->
+    <circle cx="50" cy="100" r="10" />
+    <circle cx="100" cy="100" r="10" />
+    <path d="M30,30 L120,30 L110,80 L40,80 Z" stroke="rgba(255, 255, 255, 0.4)" stroke-width="5" fill="none"/>
+  </g>
+  
+  <g fill="rgba(255, 255, 255, 0.2)" transform="translate(500, 600)">
+    <!-- Box/package icon -->
+    <rect x="40" y="40" width="80" height="60" />
+    <path d="M40,40 L80,20 L120,40 M80,20 L80,100" stroke="rgba(255, 255, 255, 0.4)" stroke-width="5" fill="none"/>
+  </g>
+  
+  <g fill="rgba(255, 255, 255, 0.15)">
+    <!-- Scattered small shopping elements -->
+    <circle cx="300" cy="400" r="5" />
+    <circle cx="320" cy="420" r="3" />
+    <circle cx="340" cy="390" r="4" />
+    
+    <circle cx="800" cy="200" r="5" />
+    <circle cx="820" cy="220" r="3" />
+    <circle cx="840" cy="190" r="4" />
+    
+    <circle cx="1200" cy="600" r="5" />
+    <circle cx="1220" cy="620" r="3" />
+    <circle cx="1240" cy="590" r="4" />
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ShopEasy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-container">
+                <button id="cart-btn" class="cart-btn">
+                    <span class="cart-icon">🛒</span>
+                    <span id="cart-count" class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Shop the Latest Milk</h2>
+                <p>Discover amazing Asmit's Milk at unbeatable prices</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            
+            <div class="featured-product">
+                <div class="featured-product-content">
+                    <div class="featured-product-image">
+                        <img src="public/special-product.jpeg" alt="Special Product" class="special-product-image">
+                    </div>
+                    <div class="featured-product-info">
+                        <span class="featured-badge">Premium Offer</span>
+                        <h3 class="featured-product-title">Asmit x Daya Combo – Noise + Damage Duo</h3>
+                        <p class="featured-product-description">Ek bolto thambat nahi, dusra todto vichart nahi.  
+                        Best combo for destroying shanti in any room.  
+                        No returns. No peace.</p>
+                        <p class="featured-product-price">$69.69 <span class="original-price">$199.99</span></p>
+                        <button class="featured-comingSoon">Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be dynamically added here using JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Shopping Cart</h2>
+                <button id="close-cart" class="close-btn">×</button>
+            </div>
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be added here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button id="checkout-btn" class="checkout-btn">Checkout</button>
+                <button id="clear-cart-btn" class="clear-cart-btn">Clear Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p>ShopEasy is your one-stop destination for all your shopping needs. We offer high-quality products at affordable prices with excellent customer service.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ShopEasy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
