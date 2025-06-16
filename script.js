@@ -32,28 +32,28 @@ const products = [
         id: 5,
         name: 'TattiPhone Se Upar',
         price: 499.99,
-        image: 'https://source.unsplash.com/random/300x300/?camera',
+        image: 'public/product-5.jpeg',
         description: "Phone cha camera zhopayla gela. Ha 4K madhe izzat uchalto, ani night mode madhe ch****a suddha disto!"
     },
     {
         id: 6,
         name: 'MooBaba GhaasGrazer Ultra',
         price: 79.99,
-        image: 'https://source.unsplash.com/random/300x300/?speaker',
+        image: 'public/product-7.jpeg',
         description: 'Turns every user into a cow... spiritually.'
     },
     {
         id: 7,
         name: 'BC Lite – Bina Context ke Gaali Machine',
         price: 349.99,
-        image: 'https://source.unsplash.com/random/300x300/?tablet',
+        image: 'public/product-6.jpeg',
         description: 'Press one button = automatic roasting begins.'
     },
     {
         id: 8,
         name: 'HavaChod Ultra Max 9000 – Bakaiti Se Bhara Hua',
         price: 399.99,
-        image: 'https://source.unsplash.com/random/300x300/?console',
+        image: 'public/product-8.jpeg',
         description: 'Bolto khup, karto kahi nahi. Fukta hava chodto'
     }
 ];
